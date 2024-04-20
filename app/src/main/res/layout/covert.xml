@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CovertActivity">
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/tip_options"
+        android:layout_width="112dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="36dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number"
+        tools:ignore="MissingConstraints">
+
+
+        <RadioButton
+            android:id="@+id/length"
+            android:layout_width="170dp"
+            android:layout_height="26dp"
+            android:text="@string/length"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/weight"
+            android:layout_width="170dp"
+            android:layout_height="26dp"
+            android:text="@string/weight"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/speed"
+            android:layout_width="170dp"
+            android:layout_height="26dp"
+            android:text="@string/Speed"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="40dp"
+        android:theme="@style/MySpinnerStyle"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip_options"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="121dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="36dp"
+        android:theme="@style/MySpinnerStyle"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip_options"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+    android:id="@+id/res"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="36dp"
+    android:textSize="30sp"
+    app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/res"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/spinner"
+    tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

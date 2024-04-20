@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Counting app</string>
+    <string name="zero">0</string>
+    <string name="result">0</string>
+    <string name="c">C</string>
+    <string name="seven">7</string>
+    <string name="four">4</string>
+    <string name="one">1</string>
+    <string name="back"><![CDATA[>>]]></string>
+    <string name="eight">8</string>
+    <string name="five">5</string>
+    <string name="two">2</string>
+    <string name="doubleZero">00</string>
+    <string name="six">6</string>
+    <string name="nine">9</string>
+    <string name="three">3</string>
+    <string name="dot">.</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="equal">=</string>
+    <string name="percent">%</string>
+    <string name="calculator">Calculator</string>
+    <string name="Convertor">Converter</string>
+    <string name="length">Length</string>
+    <string name="weight">Weight</string>
+    <string name="Speed">Speed</string>
+    <string name="backToCalculator">Back</string>
+    <string name="res"></string>
+    <string name="converter">Converter</string>
+    <string name="settings" />
+    <string name="threedot">threeDot</string>
+    <string name="close">Close\n</string>
+
+</resources>
